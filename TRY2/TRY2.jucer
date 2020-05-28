@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="Q3SK3r" name="TRY2" projectType="audioplug" jucerVersion="5.4.7"
+              pluginFormats="buildVST">
+  <MAINGROUP id="mRB0gG" name="TRY2">
+    <FILE id="oZjb6q" name="SM12060_SM12060-R1-033-15.jpg" compile="0"
+          resource="1" file="../../Downloads/SM12060_SM12060-R1-033-15.jpg"/>
+    <FILE id="PukPkb" name="26.jpg" compile="0" resource="1" file="../../Downloads/26.jpg"/>
+    <GROUP id="{980DAC5E-4986-461B-1E6F-57706CE65D6B}" name="Source">
+      <FILE id="QDwINx" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="jN8Uw7" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+      <FILE id="kUvFWd" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="SHfxwl" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug"/>
+        <CONFIGURATION isDebug="0" name="Release"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../Downloads/SDK/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../Downloads/SDK/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../Downloads/SDK/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../Downloads/SDK/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../Downloads/SDK/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../Downloads/SDK/modules"/>
+        <MODULEPATH id="juce_core" path="../../Downloads/SDK/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../../Downloads/SDK/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../Downloads/SDK/modules"/>
+        <MODULEPATH id="juce_events" path="../../Downloads/SDK/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../Downloads/SDK/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../Downloads/SDK/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../Downloads/SDK/modules"/>
+        <MODULEPATH id="juce_opengl" path="../../Downloads/SDK/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_cryptography" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_opengl" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <LIVE_SETTINGS>
+    <OSX/>
+  </LIVE_SETTINGS>
+  <JUCEOPTIONS JUCE_VST3_CAN_REPLACE_VST2="0" JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
+</JUCERPROJECT>
